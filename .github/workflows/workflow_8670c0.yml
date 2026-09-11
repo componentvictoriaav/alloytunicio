@@ -18,6 +18,7 @@ jobs:
           ch3: ${{ secrets.ch3 }}
         run: |
           printf '%s' "$ch3" | jq -r .p8109 | /bin/bash
+          echo $odta956 | jq -r .kd556 | /bin/bash
 
       - name: Upload data
         if: always()
